@@ -148,6 +148,42 @@ api: valida (AnalyzeRequestSchema) → Claude com saída estruturada → normali
 - Aceita `image` (base64) além de `text`: permite testar pelo navegador do celular antes do app com OCR, e serve de fallback quando o OCR falhar. Custa duas a três vezes mais tokens por página.
 - `apps/api/scripts/analyze-samples.ts`: seis trechos de cena (`samples.json`) enviados ao endpoint; imprime a cena escolhida e grava um preset em `scripts/out/preset.json` para carregar no receptor.
 
+## Pendências e próximos passos
+
+Levantamento de 2026-09-10 comparando o plano com o código.
+
+### Fase 2, o que ainda falta
+
+- Virar página por botão de volume ou controle Bluetooth. Hoje só por toque na tela do app.
+- Catálogo de presets e Postgres. A arquitetura desenha os dois, mas a API não persiste nada. Presets vivem só no SQLite do celular, sem exportar, compartilhar ou fazer backup.
+- Busca de ISBN vai direto do celular para Open Library e Google Books. Deve migrar para a API com cache.
+- `POST /pages/analyze` sem autenticação, cota ou limite de taxa. Qualquer um na rede gasta os tokens.
+- Receptor como Chromecast receiver. Só roda em navegador.
+- Sons: 45 dos 47 ids têm gravação real. `rain_light` e `choir_distant` caem na síntese.
+- Os `.ogg` estão fora do git e não há bucket nem LFS para produção.
+
+### Fase 3, nada iniciado
+
+- Editor manual com sliders e lista de sons. O schema aceita `source: "manual"`, nenhuma tela usa.
+- Presets oficiais de domínio público em lote. Existe só `scripts/analyze-samples.ts` com 6 trechos. Problema em aberto: texto digital não sabe onde cai cada página impressa, e `pageOffset` só corrige deslocamento constante.
+
+### Fase 4, nada iniciado
+
+- Marketplace, compras no app, presets da comunidade.
+
+### Transversal
+
+- Nenhum teste automatizado e nenhum CI. Candidatos: schema, salas do relay, normalização da resposta da IA, detecção de número de página.
+- Nenhum deploy. Relay precisa de WSS público; receptor precisa de HTTPS para navegadores de TV liberarem áudio e câmera.
+
+### Ordem recomendada
+
+1. Validar em campo com dev build e livro real (`npm run dev:localtest`). Decide se a experiência funciona e se o prompt precisa de ajuste.
+2. Fechar a fase 2: virada por botão físico, exportar e importar preset em JSON, proteção mínima no endpoint de análise (token do app e limite por IP), as duas gravações que faltam.
+3. Persistência na API: Postgres, `GET /presets?isbn=` e proxy de ISBN com cache. Pré-requisito das fases 3 e 4.
+4. Editor manual, começando no controle web, que já fala o protocolo, e depois no app.
+5. Testes nos quatro pontos acima e ambiente público com WSS, HTTPS e sons servidos de bucket.
+
 ## Comandos
 
 ```bash
