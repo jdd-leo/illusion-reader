@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Illusion Reader",
+    "slug": "illusion-reader",
+    "scheme": "illusionreader",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0e0f12",
+    "android": {
+      "package": "com.illusionreader.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0e0f12",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-camera",
+        {
+          "recordAudioAndroid": false
+        }
+      ],
+      "expo-image"
+    ]
+  }
+}

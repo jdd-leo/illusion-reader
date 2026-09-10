@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Illusion Reader</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #000; overflow: hidden; font-family: system-ui, sans-serif; }
+      canvas { display: block; width: 100vw; height: 100vh; }
+      .hud, .start {
+        position: fixed; color: rgba(255, 255, 255, 0.75); font-size: 1.1rem; letter-spacing: 0.02em;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8); pointer-events: none;
+      }
+      .hud { left: 1.5rem; bottom: 1.5rem; transition: opacity 0.8s ease; }
+      .hud.hidden { opacity: 0; }
+      .start { inset: 0; display: grid; place-items: center; background: rgba(0, 0, 0, 0.35); }
+      .code {
+        position: fixed; right: 2rem; bottom: 2rem; text-align: right; color: rgba(255, 255, 255, 0.9);
+        font-size: 3.2rem; letter-spacing: 0.25em; font-weight: 600; text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9);
+        transition: opacity 0.8s ease; pointer-events: none;
+      }
+      .code small { display: block; font-size: 0.95rem; letter-spacing: 0.05em; font-weight: 400; color: rgba(255, 255, 255, 0.6); margin-bottom: 0.4rem; }
+      .code.hidden { opacity: 0; }
+    </style>
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

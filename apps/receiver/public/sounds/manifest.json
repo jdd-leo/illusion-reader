@@ -1,0 +1,407 @@
+{
+  "rain_heavy": {
+    "freesoundId": 435221,
+    "name": "Heavy rain_clear recording",
+    "author": "dersinnsspace",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 52,
+    "query": "heavy rain ambience",
+    "url": "https://freesound.org/s/435221/"
+  },
+  "thunder_distant": {
+    "freesoundId": 778372,
+    "name": "Rolling_Distant_Thunder_In_Heavy_Rain_04",
+    "author": "BlondPanda",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 45,
+    "query": "distant thunder rumble",
+    "url": "https://freesound.org/s/778372/"
+  },
+  "wind_light": {
+    "freesoundId": 848978,
+    "name": "Wind rustling leaves through tree Cardiff",
+    "author": "gsparrysound",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 141,
+    "query": "wind trees leaves rustling",
+    "url": "https://freesound.org/s/848978/"
+  },
+  "wind_strong": {
+    "freesoundId": 735350,
+    "name": "Wind - Hurricane Typhoon Storm",
+    "author": "Vrymaa",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 81,
+    "query": "strong howling wind",
+    "url": "https://freesound.org/s/735350/"
+  },
+  "forest_day": {
+    "freesoundId": 332727,
+    "name": "Birds and bugs in the woods of Costa Rica.wav",
+    "author": "sethlind",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 79,
+    "query": "forest birds daytime ambience",
+    "url": "https://freesound.org/s/332727/"
+  },
+  "forest_night": {
+    "freesoundId": 615011,
+    "name": "Insect Buildup Forest",
+    "author": "absent1010",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 125,
+    "query": "forest night ambience insects",
+    "url": "https://freesound.org/s/615011/"
+  },
+  "birds_morning": {
+    "freesoundId": 518671,
+    "name": "Numerous birds in Essex Woodland.WAV",
+    "author": "jackmichaelking",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 125,
+    "query": "birds singing morning dawn chorus",
+    "url": "https://freesound.org/s/518671/"
+  },
+  "crickets": {
+    "freesoundId": 467022,
+    "name": "Night in Gran Sabana, crickets",
+    "author": "felix.blume",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 153,
+    "query": "crickets night",
+    "url": "https://freesound.org/s/467022/"
+  },
+  "river": {
+    "freesoundId": 866281,
+    "name": "close up sound stream",
+    "author": "geoffvt",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 108,
+    "query": "river stream water flowing",
+    "url": "https://freesound.org/s/866281/"
+  },
+  "waterfall": {
+    "freesoundId": 673972,
+    "name": "River, recording close to water flow, lapping, waterfall, bird, distant toucan, falls in Amazon rainforest",
+    "author": "felix.blume",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 158,
+    "query": "waterfall close water falling",
+    "url": "https://freesound.org/s/673972/"
+  },
+  "ocean_waves": {
+    "freesoundId": 426074,
+    "name": "11ft waves breaking on sandy beach in the distance from the top of the cliff",
+    "author": "chris_dagorne",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 62,
+    "query": "ocean waves beach shore",
+    "url": "https://freesound.org/s/426074/"
+  },
+  "seagulls": {
+    "freesoundId": 530210,
+    "name": "Pea Point, New Brunswick, Seaside ambience.",
+    "author": "AlexLane",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 198,
+    "query": "seagulls beach calling",
+    "url": "https://freesound.org/s/530210/"
+  },
+  "snow_wind": {
+    "freesoundId": 719561,
+    "name": "Wind whooshing through vent",
+    "author": "giddster",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 99,
+    "query": "winter wind snow blizzard ambience",
+    "url": "https://freesound.org/s/719561/"
+  },
+  "desert_wind": {
+    "freesoundId": 825860,
+    "name": "Desert sand - Dune atmosphere",
+    "author": "Vrymaa",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 128,
+    "query": "desert wind ambience",
+    "url": "https://freesound.org/s/825860/"
+  },
+  "cave_wind": {
+    "freesoundId": 852822,
+    "name": "AMBUndr_Subterranean Howling Wind Loop_KOLBYR_FREE SOUNDS",
+    "author": "KolbyRFX",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 219,
+    "query": "cave ambience wind echo",
+    "url": "https://freesound.org/s/852822/"
+  },
+  "underwater": {
+    "freesoundId": 490661,
+    "name": "Underwater scuba diver",
+    "author": "davi-sh",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 46,
+    "query": "underwater",
+    "url": "https://freesound.org/s/490661/"
+  },
+  "fireplace": {
+    "freesoundId": 378635,
+    "name": "fire.wav",
+    "author": "13FPanska_Kolar_Jan",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 53,
+    "query": "fireplace crackling fire",
+    "url": "https://freesound.org/s/378635/"
+  },
+  "campfire": {
+    "freesoundId": 563764,
+    "name": "bonfire flames sizzling",
+    "author": "florianreichelt",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 50,
+    "query": "campfire crackling",
+    "url": "https://freesound.org/s/563764/"
+  },
+  "kitchen": {
+    "freesoundId": 862622,
+    "name": "Sausages Sizzling in a Pan with Boiling Eggs Kitchen Ambience",
+    "author": "bassimat",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 61,
+    "query": "kitchen cooking sizzling pots ambience",
+    "url": "https://freesound.org/s/862622/"
+  },
+  "clock_ticking": {
+    "freesoundId": 800664,
+    "name": "Clock ticking",
+    "author": "1167739",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 103,
+    "query": "clock ticking",
+    "url": "https://freesound.org/s/800664/"
+  },
+  "creaking_wood": {
+    "freesoundId": 822745,
+    "name": "Foley_Creak_Wood_Floor_Sequence_Stereo",
+    "author": "Nox_Sound",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 21,
+    "query": "wood creaking floor old house",
+    "url": "https://freesound.org/s/822745/"
+  },
+  "library_quiet": {
+    "freesoundId": 635727,
+    "name": "room tone medium quiet library carpeted empty with heavy building ambience +distant sounds.flac",
+    "author": "kyles",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 121,
+    "query": "quiet library room tone",
+    "url": "https://freesound.org/s/635727/"
+  },
+  "church_reverb": {
+    "freesoundId": 811903,
+    "name": "AMB_INT_walla_Iglesia_Castillo_Peniscola__2506071",
+    "author": "Dani_S.T.",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 198,
+    "query": "cathedral interior ambience",
+    "url": "https://freesound.org/s/811903/"
+  },
+  "dungeon_drips": {
+    "freesoundId": 177958,
+    "name": "Water Dripping in Cave.wav",
+    "author": "Sclolex",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 90,
+    "query": "dungeon water dripping cave",
+    "url": "https://freesound.org/s/177958/"
+  },
+  "city_traffic": {
+    "freesoundId": 608158,
+    "name": "Street People Cars City Fantasy Traffic Noise Ambience Atmosphere - Mastered ST.wav",
+    "author": "szegvari",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 124,
+    "query": "traffic ambience",
+    "url": "https://freesound.org/s/608158/"
+  },
+  "street_market": {
+    "freesoundId": 623605,
+    "name": "Weekend Fair in Chapultepec Park Mexico City",
+    "author": "khenshom",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 71,
+    "query": "outdoor market crowd ambience",
+    "url": "https://freesound.org/s/623605/"
+  },
+  "horse_carriage": {
+    "freesoundId": 549882,
+    "name": "Horses Pavement Then Cobblestone.m4a",
+    "author": "guynoland",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 68,
+    "query": "horse carriage cobblestone hooves",
+    "url": "https://freesound.org/s/549882/"
+  },
+  "train": {
+    "freesoundId": 179347,
+    "name": "Steam Train In Motion 3 (from inside).wav",
+    "author": "lolamadeus",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 79,
+    "query": "steam train ambience",
+    "url": "https://freesound.org/s/179347/"
+  },
+  "church_bells": {
+    "freesoundId": 486559,
+    "name": "St. Benedict's Abbey bells Atchison KS close 9-28-2019.wav",
+    "author": "kb7clx",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 102,
+    "query": "church bell ringing distant",
+    "url": "https://freesound.org/s/486559/"
+  },
+  "harbor": {
+    "freesoundId": 561815,
+    "name": "Genaral Habour Ambience",
+    "author": "Kinoton",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 180,
+    "query": "harbour ambience",
+    "url": "https://freesound.org/s/561815/"
+  },
+  "drone_low": {
+    "freesoundId": 638914,
+    "name": "Low Rumble - loopable ambiance",
+    "author": "lennartgreen",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 60,
+    "query": "low drone ambient dark pad",
+    "url": "https://freesound.org/s/638914/"
+  },
+  "drone_dark": {
+    "freesoundId": 865550,
+    "name": "Dark Atmospheric Drone (Time-Stretched, Seamless Loop)",
+    "author": "kkenny101",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 158,
+    "query": "dark horror drone atmosphere",
+    "url": "https://freesound.org/s/865550/"
+  },
+  "heartbeat": {
+    "freesoundId": 693252,
+    "name": "Quiet Heartbeats.mp3",
+    "author": "UnderASpell",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 67,
+    "query": "heartbeat heart beating",
+    "url": "https://freesound.org/s/693252/"
+  },
+  "whispers": {
+    "freesoundId": 730965,
+    "name": "Whisper Evil Little Nothings to Me",
+    "author": "SoundBiterSFX",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 27,
+    "query": "whispers whispering eerie",
+    "url": "https://freesound.org/s/730965/"
+  },
+  "music_box": {
+    "freesoundId": 676722,
+    "name": "sweet music box loop.wav",
+    "author": "ZHRØ",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 40,
+    "query": "music box melody",
+    "url": "https://freesound.org/s/676722/"
+  },
+  "war_drums": {
+    "freesoundId": 328745,
+    "name": "War Drums 2.WAV",
+    "author": "BuytheField",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 42,
+    "query": "war drums",
+    "url": "https://freesound.org/s/328745/"
+  },
+  "spaceship_hum": {
+    "freesoundId": 715175,
+    "name": "Spaceship Interior Background Noise",
+    "author": "Suhuy",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 54,
+    "query": "spaceship interior ambience",
+    "url": "https://freesound.org/s/715175/"
+  },
+  "machinery": {
+    "freesoundId": 751276,
+    "name": "JM_AMB_INT_Factory 01 - Modern Machines",
+    "author": "Julien_Matthey",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 60,
+    "query": "factory machinery industrial ambience",
+    "url": "https://freesound.org/s/751276/"
+  },
+  "electric_buzz": {
+    "freesoundId": 649260,
+    "name": "electric transformer.wav",
+    "author": "Fedor_Ogon",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 54,
+    "query": "electric buzz transformer hum",
+    "url": "https://freesound.org/s/649260/"
+  },
+  "torch": {
+    "freesoundId": 387924,
+    "name": "Fire -massive no cracking.wav",
+    "author": "Aegersum",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 20,
+    "query": "torch flame burning",
+    "url": "https://freesound.org/s/387924/"
+  },
+  "crowd_shouting": {
+    "freesoundId": 384401,
+    "name": "Crowd/Mob/Riot Noise (Voices Only) - 14 people, 2 minutes HENRY VI",
+    "author": "FillMat",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 139,
+    "query": "crowd shouting angry mob",
+    "url": "https://freesound.org/s/384401/"
+  },
+  "swords_distant": {
+    "freesoundId": 568790,
+    "name": "sword against sword.wav",
+    "author": "Fenodyrie",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 79,
+    "query": "sword fight battle clash",
+    "url": "https://freesound.org/s/568790/"
+  },
+  "cannons": {
+    "freesoundId": 852980,
+    "name": "Civil War Battle",
+    "author": "SoundsCoolio",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 30,
+    "query": "cannon fire distant",
+    "url": "https://freesound.org/s/852980/"
+  },
+  "tavern_crowd": {
+    "freesoundId": 385969,
+    "name": "Pinerolo via Torino Bar Galup",
+    "author": "emanuele.caro",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 103,
+    "query": "restaurant crowd chatter indoor",
+    "url": "https://freesound.org/s/385969/"
+  },
+  "ship_hull": {
+    "freesoundId": 541322,
+    "name": "Squeaky Wooden Floor",
+    "author": "DBlover",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "duration": 137,
+    "query": "boat creaking wood",
+    "url": "https://freesound.org/s/541322/"
+  }
+}

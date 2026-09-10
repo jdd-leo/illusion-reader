@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "id": "sample-test-scene",
+  "isbn13": "9780000000000",
+  "title": "Cena de testes",
+  "source": "manual",
+  "pageOffset": 0,
+  "pages": [
+    {
+      "page": 1,
+      "visual": { "palette": ["#2f4a22", "#3a5a2c", "#a8c256", "#f2e9c4"], "brightness": 0.7, "contrast": 0.4, "motion": "fog_drift", "speed": 0.2 },
+      "sound": [
+        { "id": "birds_morning", "gain": 0.5 },
+        { "id": "wind_light", "gain": 0.3 },
+        { "id": "river", "gain": 0.25 }
+      ],
+      "transitionSeconds": 6
+    },
+    {
+      "page": 2,
+      "visual": { "palette": ["#2b1a0e", "#c9772a", "#f5b642"], "brightness": 0.5, "contrast": 0.6, "motion": "fire_flicker", "speed": 0.5 },
+      "sound": [
+        { "id": "fireplace", "gain": 0.7 },
+        { "id": "clock_ticking", "gain": 0.2 },
+        { "id": "kitchen", "gain": 0.2 }
+      ],
+      "transitionSeconds": 8
+    },
+    {
+      "page": 3,
+      "visual": { "palette": ["#0b0f1a", "#1f2a44", "#5a6b8c"], "brightness": 0.3, "contrast": 0.7, "motion": "rain_streaks", "speed": 0.6 },
+      "sound": [
+        { "id": "rain_heavy", "gain": 0.8 },
+        { "id": "thunder_distant", "gain": 0.4 },
+        { "id": "drone_low", "gain": 0.3 }
+      ],
+      "transitionSeconds": 8
+    },
+    {
+      "page": 4,
+      "visual": { "palette": ["#05060a", "#2a2f4a", "#8a93b8", "#f4f6ff"], "brightness": 0.35, "contrast": 0.9, "motion": "lightning", "speed": 0.4 },
+      "sound": [
+        { "id": "wind_strong", "gain": 0.6 },
+        { "id": "thunder_distant", "gain": 0.7 },
+        { "id": "rain_light", "gain": 0.3 }
+      ],
+      "transitionSeconds": 6
+    },
+    {
+      "page": 5,
+      "visual": { "palette": ["#020308", "#0d1330", "#3a3f6b", "#dfe6ff"], "brightness": 0.35, "contrast": 0.8, "motion": "starfield", "speed": 0.15 },
+      "sound": [
+        { "id": "crickets", "gain": 0.4 },
+        { "id": "forest_night", "gain": 0.4 },
+        { "id": "campfire", "gain": 0.3 }
+      ],
+      "transitionSeconds": 10
+    },
+    {
+      "page": 6,
+      "visual": { "palette": ["#2a1408", "#7a3f14", "#d98a2b", "#ffd27a"], "brightness": 0.55, "contrast": 0.4, "motion": "static_glow", "speed": 0.3 },
+      "sound": [
+        { "id": "tavern_crowd", "gain": 0.6 },
+        { "id": "fireplace", "gain": 0.4 },
+        { "id": "music_box", "gain": 0.15 }
+      ],
+      "transitionSeconds": 6
+    },
+    {
+      "page": 7,
+      "visual": { "palette": ["#0a2a3a", "#146b7a", "#5cc0c9", "#eaf7f5"], "brightness": 0.65, "contrast": 0.5, "motion": "waves", "speed": 0.35 },
+      "sound": [
+        { "id": "ocean_waves", "gain": 0.7 },
+        { "id": "seagulls", "gain": 0.25 },
+        { "id": "harbor", "gain": 0.3 }
+      ],
+      "transitionSeconds": 8
+    },
+    {
+      "page": 8,
+      "visual": { "palette": ["#1a0505", "#6b0f0f", "#d43a1a", "#ffb347"], "brightness": 0.5, "contrast": 0.8, "motion": "embers", "speed": 0.8 },
+      "sound": [
+        { "id": "war_drums", "gain": 0.6 },
+        { "id": "crowd_shouting", "gain": 0.5 },
+        { "id": "swords_distant", "gain": 0.4 },
+        { "id": "heartbeat", "gain": 0.35 }
+      ],
+      "transitionSeconds": 4
+    },
+    {
+      "page": 9,
+      "visual": { "palette": ["#1b2430", "#6c7a8f", "#c9d3e0", "#ffffff"], "brightness": 0.75, "contrast": 0.3, "motion": "snowfall", "speed": 0.25 },
+      "sound": [
+        { "id": "snow_wind", "gain": 0.6 },
+        { "id": "wind_light", "gain": 0.3 }
+      ],
+      "transitionSeconds": 10
+    },
+    {
+      "page": 10,
+      "visual": { "palette": ["#030a12", "#0b3a4a", "#12b3c9", "#c4fff9"], "brightness": 0.45, "contrast": 0.7, "motion": "pulse", "speed": 0.5 },
+      "sound": [
+        { "id": "spaceship_hum", "gain": 0.6 },
+        { "id": "machinery", "gain": 0.25 },
+        { "id": "electric_buzz", "gain": 0.15 }
+      ],
+      "transitionSeconds": 8
+    }
+  ]
+}

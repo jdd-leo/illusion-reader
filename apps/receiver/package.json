@@ -1,0 +1,21 @@
+{
+  "name": "@illusion/receiver",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --port 5173 --strictPort",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "fetch:sounds": "tsx scripts/fetch-sounds.ts"
+  },
+  "dependencies": {
+    "@illusion/schema": "*",
+    "@illusion/relay-client": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0",
+    "tsx": "^4.20.0"
+  }
+}

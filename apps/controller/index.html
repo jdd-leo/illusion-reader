@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#111" />
+    <title>Illusion Reader · Controle</title>
+    <style>
+      :root { color-scheme: dark; }
+      html, body { margin: 0; min-height: 100%; background: #111; color: #eee; font-family: system-ui, sans-serif; }
+      main { max-width: 480px; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; display: grid; gap: 1.25rem; }
+      h1 { font-size: 1.1rem; font-weight: 500; letter-spacing: 0.04em; color: #aaa; margin: 0; }
+      section { display: grid; gap: 0.75rem; }
+      label { font-size: 0.85rem; color: #aaa; }
+      input, select, button { font: inherit; border-radius: 12px; border: 1px solid #333; background: #1c1c1c; color: #eee; padding: 0.9rem 1rem; }
+      input, select { width: 100%; box-sizing: border-box; }
+      input.code { text-transform: uppercase; letter-spacing: 0.35em; font-size: 1.6rem; text-align: center; }
+      button { cursor: pointer; }
+      button.primary { background: #e8c36a; color: #1a1200; border-color: transparent; font-weight: 600; }
+      button.big { font-size: 1.4rem; padding: 1.6rem 1rem; }
+      button:disabled { opacity: 0.4; cursor: default; }
+      .row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+      .status { font-size: 0.85rem; color: #888; min-height: 1.2em; }
+      .now { font-size: 2.4rem; text-align: center; padding: 0.5rem 0; }
+      .now small { display: block; font-size: 0.9rem; color: #888; }
+      .error { color: #e07a6a; }
+      [hidden] { display: none !important; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>ILLUSION READER</h1>
+
+      <section id="pair">
+        <label for="code">Código exibido na TV</label>
+        <input id="code" class="code" maxlength="6" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ABC123" />
+        <button id="connect" class="primary">Conectar</button>
+        <div id="pair-status" class="status"></div>
+      </section>
+
+      <section id="session" hidden>
+        <div class="status" id="session-status"></div>
+        <label for="preset">Preset</label>
+        <select id="preset"></select>
+        <label for="preset-file">Ou carregue um arquivo de preset (JSON)</label>
+        <input id="preset-file" type="file" accept="application/json,.json" />
+        <label for="start-page">Página em que você está</label>
+        <div class="row">
+          <input id="start-page" type="number" inputmode="numeric" min="1" value="1" />
+          <button id="play" class="primary">Play</button>
+        </div>
+        <div class="now"><span id="now-page">–</span><small id="now-title"></small></div>
+        <div class="row">
+          <button id="prev" class="big">‹ Anterior</button>
+          <button id="next" class="big primary">Próxima ›</button>
+        </div>
+        <button id="disconnect">Desconectar</button>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

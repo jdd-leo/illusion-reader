@@ -1,0 +1,514 @@
+{
+  "rain_light": {
+    "query": "light rain",
+    "tags": [
+      "rain",
+      "drizzle"
+    ],
+    "exclude": [
+      "urban",
+      "traffic",
+      "city"
+    ]
+  },
+  "rain_heavy": {
+    "query": "heavy rain ambience",
+    "tags": [
+      "rain",
+      "storm",
+      "downpour"
+    ]
+  },
+  "thunder_distant": {
+    "query": "distant thunder rumble",
+    "tags": [
+      "thunder",
+      "storm"
+    ]
+  },
+  "wind_light": {
+    "query": "wind trees leaves rustling",
+    "tags": [
+      "wind",
+      "breeze"
+    ],
+    "exclude": [
+      "traffic",
+      "city",
+      "suburban",
+      "urban",
+      "children",
+      "town"
+    ]
+  },
+  "wind_strong": {
+    "query": "strong howling wind",
+    "tags": [
+      "wind",
+      "storm",
+      "howling",
+      "gale"
+    ]
+  },
+  "forest_day": {
+    "query": "forest birds daytime ambience",
+    "tags": [
+      "forest",
+      "birds",
+      "woods"
+    ]
+  },
+  "forest_night": {
+    "query": "forest night ambience insects",
+    "tags": [
+      "night",
+      "forest",
+      "insects",
+      "crickets"
+    ]
+  },
+  "birds_morning": {
+    "query": "birds singing morning dawn chorus",
+    "tags": [
+      "birds",
+      "birdsong",
+      "dawn",
+      "chirping"
+    ]
+  },
+  "crickets": {
+    "query": "crickets night",
+    "tags": [
+      "crickets",
+      "cricket",
+      "insects"
+    ]
+  },
+  "river": {
+    "query": "river stream water flowing",
+    "tags": [
+      "river",
+      "stream",
+      "creek",
+      "water"
+    ]
+  },
+  "waterfall": {
+    "query": "waterfall close water falling",
+    "tags": [
+      "waterfall",
+      "water",
+      "cascade"
+    ],
+    "exclude": [
+      "crickets",
+      "frogs",
+      "night",
+      "insects"
+    ]
+  },
+  "ocean_waves": {
+    "query": "ocean waves beach shore",
+    "tags": [
+      "ocean",
+      "waves",
+      "sea",
+      "beach",
+      "surf"
+    ]
+  },
+  "seagulls": {
+    "query": "seagulls beach calling",
+    "tags": [
+      "seagulls",
+      "seagull",
+      "gulls",
+      "gull"
+    ],
+    "exclude": [
+      "echo",
+      "effect",
+      "processed"
+    ]
+  },
+  "snow_wind": {
+    "query": "winter wind snow blizzard ambience",
+    "tags": [
+      "wind",
+      "winter",
+      "snow",
+      "blizzard",
+      "cold"
+    ]
+  },
+  "desert_wind": {
+    "query": "desert wind ambience",
+    "tags": [
+      "desert",
+      "wind",
+      "sand"
+    ],
+    "exclude": [
+      "cinematic",
+      "dark",
+      "adventure",
+      "music"
+    ]
+  },
+  "cave_wind": {
+    "query": "cave ambience wind echo",
+    "tags": [
+      "cave",
+      "cavern",
+      "underground",
+      "wind"
+    ]
+  },
+  "underwater": {
+    "query": "underwater",
+    "tags": [
+      "underwater",
+      "hydrophone",
+      "bubbles",
+      "submerged",
+      "water",
+      "diving"
+    ]
+  },
+  "fireplace": {
+    "query": "fireplace crackling fire",
+    "tags": [
+      "fireplace",
+      "fire",
+      "crackling",
+      "crackle"
+    ]
+  },
+  "campfire": {
+    "query": "campfire crackling",
+    "tags": [
+      "campfire",
+      "fire",
+      "crackling",
+      "bonfire"
+    ]
+  },
+  "torch": {
+    "query": "torch flame burning",
+    "tags": [
+      "torch",
+      "flame",
+      "fire",
+      "burning"
+    ]
+  },
+  "tavern_crowd": {
+    "query": "restaurant crowd chatter indoor",
+    "tags": [
+      "restaurant",
+      "crowd",
+      "chatter",
+      "people",
+      "bar",
+      "pub",
+      "tavern",
+      "cafe"
+    ]
+  },
+  "kitchen": {
+    "query": "kitchen cooking sizzling pots ambience",
+    "tags": [
+      "kitchen",
+      "cooking",
+      "sizzle",
+      "sizzling",
+      "frying"
+    ]
+  },
+  "clock_ticking": {
+    "query": "clock ticking",
+    "tags": [
+      "clock",
+      "ticking",
+      "tick",
+      "tock"
+    ]
+  },
+  "creaking_wood": {
+    "query": "wood creaking floor old house",
+    "tags": [
+      "creak",
+      "creaking",
+      "wood",
+      "wooden",
+      "floor"
+    ]
+  },
+  "library_quiet": {
+    "query": "quiet library room tone",
+    "tags": [
+      "library",
+      "room-tone",
+      "roomtone",
+      "quiet",
+      "silence"
+    ]
+  },
+  "church_reverb": {
+    "query": "cathedral interior ambience",
+    "tags": [
+      "cathedral",
+      "church",
+      "interior",
+      "reverb",
+      "quiet",
+      "chapel"
+    ],
+    "exclude": [
+      "crowd",
+      "busy",
+      "organ",
+      "choir"
+    ]
+  },
+  "dungeon_drips": {
+    "query": "dungeon water dripping cave",
+    "tags": [
+      "dungeon",
+      "drip",
+      "dripping",
+      "drips",
+      "cave"
+    ]
+  },
+  "ship_hull": {
+    "query": "boat creaking wood",
+    "tags": [
+      "boat",
+      "ship",
+      "creak",
+      "creaking",
+      "wood",
+      "wooden",
+      "hull",
+      "sailing"
+    ]
+  },
+  "city_traffic": {
+    "query": "traffic ambience",
+    "tags": [
+      "traffic",
+      "cars",
+      "city",
+      "urban",
+      "road",
+      "street"
+    ],
+    "exclude": [
+      "prayer",
+      "adhan",
+      "muezzin",
+      "muzein",
+      "music",
+      "market",
+      "siren"
+    ]
+  },
+  "street_market": {
+    "query": "outdoor market crowd ambience",
+    "tags": [
+      "market",
+      "crowd",
+      "street",
+      "bazaar",
+      "people"
+    ]
+  },
+  "horse_carriage": {
+    "query": "horse carriage cobblestone hooves",
+    "tags": [
+      "horse",
+      "carriage",
+      "hooves",
+      "cobblestone"
+    ]
+  },
+  "train": {
+    "query": "steam train ambience",
+    "tags": [
+      "train",
+      "steam",
+      "locomotive",
+      "railway"
+    ]
+  },
+  "church_bells": {
+    "query": "church bell ringing distant",
+    "tags": [
+      "bell",
+      "bells",
+      "church",
+      "chime",
+      "ringing"
+    ],
+    "exclude": [
+      "atmosphere",
+      "mystical",
+      "drone",
+      "healing",
+      "ghostly",
+      "dark"
+    ]
+  },
+  "harbor": {
+    "query": "harbour ambience",
+    "tags": [
+      "harbour",
+      "harbor",
+      "port",
+      "boats",
+      "marina",
+      "dock",
+      "sea"
+    ],
+    "exclude": [
+      "pond",
+      "lake"
+    ]
+  },
+  "drone_low": {
+    "query": "low drone ambient dark pad",
+    "tags": [
+      "drone",
+      "ambient",
+      "dark",
+      "pad",
+      "low"
+    ]
+  },
+  "drone_dark": {
+    "query": "dark horror drone atmosphere",
+    "tags": [
+      "drone",
+      "horror",
+      "dark",
+      "atmosphere",
+      "eerie"
+    ]
+  },
+  "heartbeat": {
+    "query": "heartbeat heart beating",
+    "tags": [
+      "heartbeat",
+      "heart",
+      "pulse"
+    ]
+  },
+  "whispers": {
+    "query": "whispers whispering eerie",
+    "tags": [
+      "whisper",
+      "whispers",
+      "whispering",
+      "voices"
+    ]
+  },
+  "choir_distant": {
+    "query": "choir",
+    "tags": [
+      "choir",
+      "chant",
+      "vocal",
+      "voices",
+      "singing"
+    ],
+    "exclude": [
+      "alien",
+      "sci-fi",
+      "scifi"
+    ]
+  },
+  "music_box": {
+    "query": "music box melody",
+    "tags": [
+      "music-box",
+      "musicbox",
+      "music box",
+      "lullaby"
+    ]
+  },
+  "crowd_shouting": {
+    "query": "crowd shouting angry mob",
+    "tags": [
+      "crowd",
+      "shouting",
+      "mob",
+      "riot",
+      "yelling"
+    ]
+  },
+  "swords_distant": {
+    "query": "sword fight battle clash",
+    "tags": [
+      "sword",
+      "swords",
+      "battle",
+      "clash",
+      "fight",
+      "medieval"
+    ]
+  },
+  "war_drums": {
+    "query": "war drums",
+    "tags": [
+      "drums",
+      "drum",
+      "war",
+      "tribal",
+      "percussion",
+      "battle"
+    ],
+    "allowMusic": true
+  },
+  "cannons": {
+    "query": "cannon fire distant",
+    "tags": [
+      "cannon",
+      "cannons",
+      "artillery",
+      "explosion"
+    ]
+  },
+  "spaceship_hum": {
+    "query": "spaceship interior ambience",
+    "tags": [
+      "spaceship",
+      "space",
+      "sci-fi",
+      "scifi",
+      "hum",
+      "engine",
+      "ship",
+      "interior"
+    ]
+  },
+  "machinery": {
+    "query": "factory machinery industrial ambience",
+    "tags": [
+      "factory",
+      "machinery",
+      "industrial",
+      "machine"
+    ]
+  },
+  "electric_buzz": {
+    "query": "electric buzz transformer hum",
+    "tags": [
+      "electric",
+      "electricity",
+      "buzz",
+      "hum",
+      "transformer"
+    ]
+  }
+}
