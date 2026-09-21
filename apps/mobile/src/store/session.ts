@@ -12,6 +12,8 @@ interface SessionState {
   tv: ReceiverState | null;
   error: string | null;
   connect: (code: string) => void;
+  /** Reconecta à última TV usada, sem pedir o código de novo. */
+  autoConnect: () => void;
   disconnect: () => void;
   send: (message: ControlMessage) => boolean;
 }
@@ -58,6 +60,11 @@ export const useSession = create<SessionState>()((set, get) => ({
         }
       },
     });
+  },
+
+  autoConnect: () => {
+    const lastCode = useSettings.getState().lastCode;
+    if (lastCode && get().status === "idle") get().connect(lastCode);
   },
 
   disconnect: () => {
