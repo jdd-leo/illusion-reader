@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "id": "sample-chapters",
+  "isbn13": "9780000000002",
+  "title": "Livro de exemplo em capítulos",
+  "source": "manual",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "A partida",
+      "startPage": 7,
+      "endPage": 24,
+      "confidence": 0.9,
+      "scenes": [
+        {
+          "weight": 0.4,
+          "mood": ["manhã", "campo", "despedida"],
+          "visual": { "palette": ["#2f4a22", "#3a5a2c", "#a8c256", "#f2e9c4"], "brightness": 0.7, "contrast": 0.4, "motion": "fog_drift", "speed": 0.2 },
+          "sound": [
+            { "id": "birds_morning", "gain": 0.5 },
+            { "id": "wind_light", "gain": 0.3 }
+          ],
+          "transitionSeconds": 20
+        },
+        {
+          "weight": 0.6,
+          "mood": ["estrada", "cavalos", "poeira"],
+          "visual": { "palette": ["#3b2a17", "#7a5a2e", "#c9a25a", "#f0dca0"], "brightness": 0.6, "contrast": 0.5, "motion": "static_glow", "speed": 0.3 },
+          "sound": [
+            { "id": "horse_carriage", "gain": 0.5 },
+            { "id": "wind_light", "gain": 0.3 },
+            { "id": "desert_wind", "gain": 0.15 }
+          ],
+          "transitionSeconds": 30
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "A tempestade",
+      "startPage": 25,
+      "endPage": 41,
+      "confidence": 0.8,
+      "scenes": [
+        {
+          "weight": 0.3,
+          "mood": ["anoitecer", "nuvens", "espera"],
+          "visual": { "palette": ["#0b0f1a", "#1f2a44", "#5a6b8c"], "brightness": 0.35, "contrast": 0.6, "motion": "fog_drift", "speed": 0.3 },
+          "sound": [
+            { "id": "wind_strong", "gain": 0.4 },
+            { "id": "thunder_distant", "gain": 0.3 }
+          ],
+          "transitionSeconds": 25
+        },
+        {
+          "weight": 0.5,
+          "mood": ["chuva", "trovão", "mar"],
+          "visual": { "palette": ["#05060a", "#2a2f4a", "#8a93b8", "#f4f6ff"], "brightness": 0.35, "contrast": 0.9, "motion": "lightning", "speed": 0.5 },
+          "sound": [
+            { "id": "rain_heavy", "gain": 0.7 },
+            { "id": "thunder_distant", "gain": 0.7 },
+            { "id": "ocean_waves", "gain": 0.4 }
+          ],
+          "transitionSeconds": 20
+        },
+        {
+          "weight": 0.2,
+          "mood": ["calmaria", "madrugada"],
+          "visual": { "palette": ["#020308", "#0d1330", "#3a3f6b", "#dfe6ff"], "brightness": 0.3, "contrast": 0.7, "motion": "waves", "speed": 0.15 },
+          "sound": [
+            { "id": "ocean_waves", "gain": 0.5 },
+            { "id": "ship_hull", "gain": 0.3 },
+            { "id": "rain_light", "gain": 0.2 }
+          ],
+          "transitionSeconds": 40
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "A taverna",
+      "startPage": 42,
+      "endPage": 58,
+      "confidence": 0.5,
+      "scenes": [
+        {
+          "weight": 1,
+          "mood": ["lareira", "vozes", "noite"],
+          "visual": { "palette": ["#2b1a0e", "#c9772a", "#f5b642"], "brightness": 0.5, "contrast": 0.6, "motion": "fire_flicker", "speed": 0.5 },
+          "sound": [
+            { "id": "fireplace", "gain": 0.6 },
+            { "id": "tavern_crowd", "gain": 0.4 },
+            { "id": "creaking_wood", "gain": 0.2 }
+          ],
+          "transitionSeconds": 20
+        }
+      ]
+    }
+  ]
+}

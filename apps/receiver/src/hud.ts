@@ -1,3 +1,5 @@
+import type { Cue } from "./player";
+
 const LABEL_VISIBLE_MS = 2500;
 
 export class Hud {
@@ -17,8 +19,11 @@ export class Hud {
     document.body.append(this.label, this.code, this.start);
   }
 
-  showPage(title: string | null, page: number | null): void {
-    this.label.textContent = page === null ? "" : `${title ?? ""}  ·  pág. ${page}`;
+  /** Rótulo breve na troca de cena. Para capítulos mostra só as palavras de clima, nunca enredo. */
+  showCue(title: string | null, cue: Cue | null): void {
+    if (cue === null) this.label.textContent = "";
+    else if (cue.kind === "page") this.label.textContent = `${title ?? ""}  ·  pág. ${cue.page}`;
+    else this.label.textContent = `${title ?? ""}  ·  cap. ${cue.chapter}  ·  ${cue.mood.join(", ")}`;
     this.label.classList.remove("hidden");
     clearTimeout(this.hideTimer);
     this.hideTimer = setTimeout(() => this.label.classList.add("hidden"), LABEL_VISIBLE_MS);

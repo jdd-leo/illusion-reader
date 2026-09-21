@@ -16,10 +16,21 @@ export const PairingCodeSchema = z
   .regex(new RegExp(`^[${PAIRING_CODE_ALPHABET}]+$`), "código inválido");
 
 const pageNumber = z.number().int().positive();
+const chapterIndex = z.number().int().positive();
+/** Posição da cena dentro do capítulo, a partir de 0. */
+const sceneIndex = z.number().int().nonnegative();
 
 /** Controle -> receptor. */
 export const ControlMessageSchema = z.discriminatedUnion("type", [
-  z.object({ type: z.literal("load_preset"), preset: PresetSchema, page: pageNumber.optional() }),
+  z.object({
+    type: z.literal("load_preset"),
+    preset: PresetSchema,
+    /** Posição inicial: capítulo e cena (fluxo principal) ou página impressa (modo avançado). */
+    chapter: chapterIndex.optional(),
+    scene: sceneIndex.optional(),
+    page: pageNumber.optional(),
+  }),
+  z.object({ type: z.literal("goto_scene"), chapter: chapterIndex, scene: sceneIndex }),
   z.object({ type: z.literal("goto"), page: pageNumber }),
   z.object({ type: z.literal("next") }),
   z.object({ type: z.literal("prev") }),
@@ -29,7 +40,13 @@ export const ControlMessageSchema = z.discriminatedUnion("type", [
 export const ReceiverStateSchema = z.object({
   type: z.literal("state"),
   presetTitle: z.string().nullable(),
+  /** Preenchidos quando o receptor está em uma cena de capítulo. */
+  chapter: chapterIndex.nullable().default(null),
+  scene: sceneIndex.nullable().default(null),
+  mood: z.array(z.string()).default([]),
+  /** Preenchido quando o receptor está em uma página (modo avançado). */
   page: pageNumber.nullable(),
+  /** Total de cenas carregadas, de capítulos ou de páginas. */
   pageCount: z.number().int().nonnegative(),
 });
 
