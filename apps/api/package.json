@@ -8,7 +8,8 @@
     "dev": "tsx watch src/server.ts",
     "start": "tsx src/server.ts",
     "typecheck": "tsc --noEmit",
-    "test:analyze": "tsx scripts/analyze-samples.ts"
+    "test:analyze": "tsx scripts/analyze-samples.ts",
+    "test:book": "tsx scripts/analyze-book.ts"
   },
   "dependencies": {
     "@illusion/schema": "*",

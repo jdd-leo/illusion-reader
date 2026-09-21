@@ -18,7 +18,7 @@ analyzeRoute.post("/analyze", async (c) => {
   } catch (error) {
     if (error instanceof AnalyzeError) {
       console.warn(`[analyze] ${error.status} ${error.message}`);
-      return c.json({ error: error.message }, error.status as 429 | 502 | 503);
+      return c.json({ error: error.message }, error.status);
     }
     console.error("[analyze] erro inesperado", error);
     return c.json({ error: "erro interno" }, 500);

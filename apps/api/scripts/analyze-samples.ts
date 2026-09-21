@@ -67,6 +67,7 @@ if (pages.length > 0) {
     title: "Amostras geradas por IA",
     source: "ai",
     pageOffset: 0,
+    chapters: [],
     pages,
   };
   const outDir = path.join(here, "out");

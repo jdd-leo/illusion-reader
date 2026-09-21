@@ -1,0 +1,19 @@
+{
+  "isbn13": "9780000000003",
+  "title": "A Ilha do Tesouro",
+  "author": "Robert Louis Stevenson",
+  "synopsis": "Jim Hawkins, filho dos donos de uma estalagem à beira-mar, encontra o mapa de um tesouro pirata e embarca na Hispaniola rumo a uma ilha distante, sem saber que boa parte da tripulação, liderada pelo cozinheiro Long John Silver, planeja um motim.",
+  "totalPages": 96,
+  "chapters": [
+    { "index": 1, "title": "O velho lobo do mar na estalagem Almirante Benbow", "startPage": 7 },
+    { "index": 2, "title": "Cão Negro aparece e desaparece", "startPage": 15 },
+    { "index": 3, "title": "A mancha negra", "startPage": 23 },
+    { "index": 4, "title": "O baú do marinheiro", "startPage": 31 },
+    { "index": 5, "title": "O fim do cego", "startPage": 39 },
+    { "index": 6, "title": "Os papéis do capitão", "startPage": 47 },
+    { "index": 7, "title": "Vou a Bristol", "startPage": 56 },
+    { "index": 8, "title": "Na taberna do Óculo", "startPage": 64 },
+    { "index": 9, "title": "Pólvora e armas", "startPage": 72 },
+    { "index": 10, "title": "A viagem", "startPage": 81 }
+  ]
+}
